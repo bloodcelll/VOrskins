@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*body*/
+
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 100px;
+    background-image: linear-gradient(to right,white,white,white,rgb(73, 203, 243));
+    padding: 0 10%;
+}
+
+/*logo di kiri*/
+.vorskinsLogo{
+    float: left;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    font-weight: 750;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+/*home dll*/
+.navbar a{
+    padding-left: 5rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar li a{
+    letter-spacing: 0,2px;
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    color: #D0AB99;
+}
+/*isi website*/
+section{
+    margin-top: 100px;
+}
+
+.section{
+    padding: 2rem 7%;
+    min-height: 90vh;
+    align-items: center;
+    background-image: linear-gradient(to right,white,white,white,rgb(73, 203, 243));
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content p{
+    flex: 45rem;
+}
+
+.content h1{
+    flex: 45rem;
+}
+
+.content button{
+    float: left;
+}
+
+button{
+    background-color: rgb(73, 203, 243); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.flexcon{
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.img{
+    width: 20vw;
+    padding: 2vw;
+    margin-bottom: 7vw;
+    margin-left: 5vw;
+}
+
+.gopay{
+    color: white;
+    border-radius: 2vw;
+    width: 30vw;
+    margin-right: 20vw;
+    background-color: rgb(142, 66, 66);
+}
+
+.ovo{
+    color: white;
+    background-color: rgb(142, 66, 66);
+    width: 30vw;
+    border-radius: 2vw;
+}
+.text{
+    font-size: 2vw;
+    padding: 2vw;
+    margin-bottom: 5vw;
+}
+
+.subs{
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    border-radius: 1vw;
+}
+
+.sub{
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border-radius: 1vw;
+}
